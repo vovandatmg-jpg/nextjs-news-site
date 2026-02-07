@@ -800,8 +800,8 @@ export default function BigbodyContent() {
 
                     <p className={styles.listDesc}>
                       Khung pháp lý mới cho hoạt động cho vay ngang hàng (P2P
-                      Lending) tại Việt Nam đang định hình sản phẩm mới, mang
-                      đến cơ hội và thách thức...
+                      Lending) tại Việt Nam đang định hình sân chơi mới, mang
+                      đến cả cơ hội và thách thức cho các...
                     </p>
                   </div>
                 </article>
