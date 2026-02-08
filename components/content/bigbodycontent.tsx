@@ -449,8 +449,8 @@ export default function BigbodyContent() {
                     <span className={styles.marketTime}>8h trước</span>
                   </div>
                   <a href="!#" className={styles.marketCardTitle}>
-                    Từ ngày 1/11, chuyển tiền từ 500 triệu đồng buộc phải cung
-                    cấp
+                    Từ ngày 1/11, chuyển tiền từ 500 triệu đồng bắt buộc phải
+                    cung cấp đầy đủ dữ liệu cá nhân và giao dịch
                   </a>
                 </div>
               </article>

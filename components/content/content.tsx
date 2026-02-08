@@ -1,3 +1,4 @@
+import React from "react";
 import Image from "next/image";
 import styles from "./content.module.css";
 import BigbodyContent from "./bigbodycontent";
@@ -18,9 +19,9 @@ export default function Content() {
               <div className={styles.pills}>
                 <button className={styles.pill}>Nhìn lại 2025</button>
                 <button className={styles.pill}>Xe hay</button>
-                <button className={styles.pill}>Thị trường</button>
-                <button className={styles.pill}>Theo dõi của bạn</button>
-                <button className={styles.pill}>Theo dõi</button>
+                <button className={styles.pill}>AI</button>
+                <button className={styles.pill}>Theo dõi cá mập</button>
+                <button className={styles.pill}>Góc nhìn thị trường</button>
               </div>
             </div>
 
@@ -179,8 +180,10 @@ export default function Content() {
 
             {/* CHUYÊN ĐỀ */}
             <div className={styles.sectionHead}>
-              <Image src="/union.png" alt="union" width={12} height={12} />
-              <h3 className={styles.sectionTitle}>CHUYÊN ĐỀ</h3>
+              <div className={styles.sectionHeadRow}>
+                <Image src="/union.png" alt="union" width={12} height={12} />
+                <h3 className={styles.sectionTitle}>CHUYÊN ĐỀ</h3>
+              </div>
             </div>
 
             <div>
@@ -271,8 +274,10 @@ export default function Content() {
 
             {/* TÀI CHÍNH NGÂN HÀNG */}
             <div className={styles.sectionHead}>
-              <Image src="/union.png" alt="union" width={12} height={12} />
-              <h3 className={styles.sectionTitle}>TÀI CHÍNH NGÂN HÀNG</h3>
+              <div className={styles.sectionHeadRow}>
+                <Image src="/union.png" alt="union" width={12} height={12} />
+                <h3 className={styles.sectionTitle}>TÀI CHÍNH NGÂN HÀNG</h3>
+              </div>
             </div>
             <article className={styles.listItem}>
               <div className={styles.listThumb}>
@@ -569,7 +574,7 @@ export default function Content() {
 
               <div className={styles.stockTable}>
                 <div className={styles.stockHead}>
-                  <span className={styles.stockCol1}>Mã</span>
+                  <span className={styles.stockCol1}>Mã CK</span>
                   <span className={styles.stockCol2}>Giá</span>
                   <span className={styles.stockCol3}>KLGD</span>
                 </div>
@@ -780,8 +785,10 @@ export default function Content() {
                   </a>
                 </h3>
                 <p className={styles.featureDesc}>
-                  Các biến động lớn trong kinh tế thế giới đã tạo ra nhiều tác
-                  động… (mô tả ngắn)
+                  lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis
+                  corporis sit quam quidem ab nisi quaerat, hic obcaecati nulla
+                  et aliquam possimus suscipit labore ullam tenetur sed
+                  consequatur
                 </p>
               </div>
             </article>
@@ -807,9 +814,14 @@ export default function Content() {
                   </a>
 
                   <p className={styles.featureDesc}>
-                    Khung pháp lý mới cho hoạt động cho vay ngang hàng (P2P
-                    Lending) tại Việt Nam đang định hình sản phẩm mới, mang đến
-                    cơ hội và thách thức...
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quis corporis sit quam quidem ab nisi quaerat, hic obcaecati
+                    nulla et aliquam possimus suscipit labore ullam tenetur sed
+                    consequatur deserunt cumque. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Dolore, dicta consequatur
+                    assumenda autem quis maiores cum tenetur. Expedita quo
+                    laudantium laborum porro? Consequatur expedita totam iste
+                    rerum placeat quaerat sit!
                   </p>
                 </div>
               </article>
@@ -833,9 +845,10 @@ export default function Content() {
                   </a>
 
                   <p className={styles.featureDesc}>
-                    Khung pháp lý mới cho hoạt động cho vay ngang hàng (P2P
-                    Lending) tại Việt Nam đang định hình sản phẩm mới, mang đến
-                    cơ hội và thách thức...
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Nihil totam nobis fugiat quasi excepturi quis eius soluta
+                    repudiandae, incidunt ut ipsam labore animi enim. Molestiae
+                    repudiandae odio quia incidunt est!
                   </p>
                 </div>
               </article>

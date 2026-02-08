@@ -1,6 +1,11 @@
+"use client";
+
+import { useState } from "react";
 import styles from "./header.module.css";
 
 export default function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   return (
     <header className={styles.header}>
       <div className={styles["header-container"]}>
@@ -16,10 +21,38 @@ export default function Header() {
             <a>Tìm kiếm</a>
             <a>Thông báo</a>
           </div>
+
+          {/* HAMBURGER BUTTON */}
+          <button
+            className={styles.menu}
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
+        <div
+          className={`${styles["mobile-app"]} ${
+            isMenuOpen ? styles["menu-open"] : ""
+          }`}
+        >
+          <a>Truyền hình</a>
+          <a>Tin mới nhất</a>
+          <a>Lịch sự kiện</a>
+          <a>Dữ liệu</a>
+          <a>Tìm kiếm</a>
+          <a>Thông báo</a>
         </div>
 
         {/* MENU BAR */}
-        <div className={styles["header-menu"]}>
+        <div
+          className={`${styles["header-menu"]} ${
+            isMenuOpen ? styles["menu-hidden"] : ""
+          }`}
+        >
           <nav className={styles.nav}>
             <a>Trang chủ</a>
             <a>Mới nhất</a>

@@ -10,17 +10,17 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className={styles.pageWrap}>
-        <Banner />
-        <div className={styles.floatWrap}>
-          <div className="container">
-            <NewsGrid />
-          </div>
-        </div>
-        <div className={styles.contentWrap}>
-          <Content />
+
+      <Banner />
+      <div className={styles.floatWrap}>
+        <div className="container">
+          <NewsGrid />
         </div>
       </div>
+      <div className={styles.contentWrap}>
+        <Content />
+      </div>
+
       <Footer />
     </>
   );

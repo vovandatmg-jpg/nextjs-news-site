@@ -35,23 +35,23 @@ export default function NewsGrid() {
           <div className={`${styles.center} ${styles.containerCenter}`}>
             <div className={styles.priceRow}>
               <span className={styles.priceLabel}>SJC HN</span>
-              <strong className={styles.colorItem}>154,700</strong>
+              <p className={styles.colorItem}>154,700</p>
             </div>
             <div className={styles.priceRow}>
               <span className={styles.priceLabel}>USD</span>
-              <strong className={styles.colorItem}>26,380</strong>
+              <p className={styles.colorItem}>26,380</p>
             </div>
             <div className={styles.priceRow}>
               <span className={styles.priceLabel}>Dầu thô</span>
-              <strong className={styles.colorItem}>48,04</strong>
+              <p className={styles.colorItem}>48,04</p>
             </div>
             <div className={styles.priceRow}>
               <span className={styles.priceLabel}>BTC</span>
-              <strong className={styles.colorItem}>87,291</strong>
+              <p className={styles.colorItem}>87,291</p>
             </div>
             <div className={styles.priceRow}>
               <span className={styles.priceLabel}>Lãi suất 6T</span>
-              <strong className={styles.colorItem}>7.10</strong>
+              <p className={styles.colorItem}>7.10</p>
             </div>
           </div>
 
@@ -64,7 +64,7 @@ export default function NewsGrid() {
                   onClick={() => setSelectedIndex("VN-Index")}
                   style={{ cursor: "pointer" }}
                 >
-                  <span className={`${styles.indexName} ${styles.active}`}>
+                  <span className={`${styles.indexName} ${styles.sizeName}`}>
                     VN-Index
                   </span>
                   <span className={styles.indexValue}>315.70</span>

@@ -26,7 +26,7 @@ export default function Footer() {
               <p className={styles.footerText}>
                 Cơ quan báo chí: <strong>Thời báo VTV</strong>
               </p>
-              <p className={styles.footerSmall}>
+              <p className={styles.footerInfo}>
                 Giấy phép hoạt động báo in và báo điện tử số 483/GP-BTTTT cấp
                 ngày 11/11/2025
               </p>
@@ -39,13 +39,13 @@ export default function Footer() {
                 <strong>Điều khoản và điều kiện sử dụng</strong>
               </p>
               <div className={styles.footerContact}>
-                <p className={styles.contactLabel}>
+                <p className={styles.contactInfo}>
                   Hotline ban đoc:{" "}
-                  <span className={styles.contactValue}>024.66 897 897</span>
+                  <span className={styles.contactNumber}>024.66 897 897</span>
                 </p>
-                <p className={styles.contactLabel}>
+                <p className={styles.contactInfo}>
                   Liên hệ quảng cáo:{" "}
-                  <span className={styles.contactValue}>0907405408</span>
+                  <span className={styles.contactNumber}>0907405408</span>
                 </p>
               </div>
             </div>

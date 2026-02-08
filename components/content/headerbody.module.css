@@ -3,7 +3,7 @@
   display: flex;
   gap: 18px;
   align-items: stretch;
-  background: #ffffff;
+  background: #fff;
   padding: 20px;
   border-radius: 14px;
   z-index: 10;
@@ -166,7 +166,7 @@
 
 .sideTitle {
   font-size: 16px;
-  line-height: 1.35;
+  line-height: 1.4;
   color: #0f172a;
 
   display: -webkit-box;
@@ -176,6 +176,7 @@
 }
 
 .sideTitleLink {
+  font-weight: 500;
   text-decoration: none;
   color: #000;
 }
@@ -186,22 +187,16 @@
 
 /* ===== ROW 2: CAROUSEL ===== */
 .row2 {
-  margin-top: 24px;
+  margin-top: 12px;
   position: relative;
   display: flex;
   align-items: center;
-  gap: 10px;
 }
 
 .carousel {
   flex: 1;
   display: flex;
-  gap: 24px;
-}
-
-.carousel > * {
-  flex: 1;
-  min-width: 0;
+  justify-content: space-around;
 }
 
 .carCard {
@@ -237,9 +232,10 @@
   justify-content: center;
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
   position: absolute;
-  left: -20px;
+  left: -8px;
   z-index: 12;
   bottom: 138px;
+  opacity: 0.9;
 }
 
 .arrowRight {
@@ -259,6 +255,7 @@
   right: 0px;
   z-index: 12;
   bottom: 138px;
+  opacity: 0.9;
 }
 
 .arrowLeft:hover,

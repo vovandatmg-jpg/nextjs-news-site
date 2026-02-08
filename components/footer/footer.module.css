@@ -48,7 +48,7 @@
   line-height: 1.6;
 }
 
-.footerSmall {
+.footerInfo {
   font-size: 16px;
   color: #64748b;
   margin: 8px 0 0 0;
@@ -62,14 +62,14 @@
   margin-top: 8px;
 }
 
-.contactLabel {
+.contactInfo {
   font-size: 16px;
   color: #475569;
   margin: 0;
   line-height: 1.5;
 }
 
-.contactValue {
+.contactNumber {
   font-weight: 700;
   color: #0f172a;
 }
