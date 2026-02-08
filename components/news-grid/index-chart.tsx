@@ -98,10 +98,10 @@ export default function IndexChart({
             border: "1px solid #e5e7eb",
             borderRadius: "6px",
           }}
-          labelStyle={{ color: "#000", fontSize: "12px" }}
+          labelStyle={{ color: "#000", fontSize: "14px" }}
         />
         <Legend
-          wrapperStyle={{ fontSize: "11px", paddingTop: "10px" }}
+          wrapperStyle={{ fontSize: "11px", paddingTop: "8px" }}
           height={20}
         />
         {lineItems.map(
